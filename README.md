@@ -33,7 +33,7 @@ Enables traders to take low-risk positions with high potential payoffs if the st
 Future Research Directions
 While these models delivered promising results, it is essential to emphasize that they are experimental and should not yet be used for real-world trading without further validation.
 
-Potential areas for further exploration:
+Potential areas for further exploration: https://github.com/jesseleone/convolutional-neural-network-stock-charts/blob/main/Diagram.JPG
 
 Neural Network Optimization: Adjusting the architecture to improve the model’s ability to interpret stock chart patterns (consider K-fold and gridsearch)
 Chart Parameters: Testing different values for the number of days included, pixel resolution, and other indicators (e.g., trading volume).
