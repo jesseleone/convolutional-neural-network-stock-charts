@@ -1,10 +1,6 @@
-# stocks-computer-vision
-Predicting Stock Movements Using Image Classification
 Leveraging Convolutional Neural Networks (CNNs) to Forecast 10-Day Returns from Stock Chart Images
 
-
-Imitates implementation from Kyle Johnson https://kylejohnson363.github.io/forecasting_stock_movements_with_image_classification
-Original Post: Forecasting Stock Movements with Image Classification
+By Jesse Leone
 
 Project Overview
 Stock charts have long been used to guide trading and investment decisions, with early traders even hand-drawing charts to spot patterns and trends. This project builds on that tradition by employing modern image recognition techniques—specifically Convolutional Neural Networks (CNNs)—to analyze candlestick chart images, aiming to generate valuable insights for stock forecasting.
@@ -33,13 +29,18 @@ Multi-Class Model:
 
 Achieved a lower standard deviation of prediction errors compared to stock returns, which is highly valuable for options traders.
 Enables traders to take low-risk positions with high potential payoffs if the stock price lands within a specified range.
+
 Future Research Directions
 While these models delivered promising results, it is essential to emphasize that they are experimental and should not yet be used for real-world trading without further validation.
 
 Potential areas for further exploration:
 
-Neural Network Optimization: Adjusting the architecture to improve the model’s ability to interpret stock chart patterns.
+Neural Network Optimization: Adjusting the architecture to improve the model’s ability to interpret stock chart patterns (consider K-fold and gridsearch)
 Chart Parameters: Testing different values for the number of days included, pixel resolution, and other indicators (e.g., trading volume).
 Expanded Stock Universe: Incorporating stocks no longer listed in the DJIA or those that have gone private to mitigate survivorship bias.
+Expanded Timeframe: Increase lookback period or increasing period intervals (down to 1-minute).
 Hybrid Neural Networks: Developing a model that combines numerical and visual data to enhance predictive performance.
-This project demonstrates the potential of using CNNs to extract predictive insights from stock chart images. However, further refinement is essential before applying these methods in live trading environments.
+
+References: 
+- Jeongseok Bangl, Doojin Ryu. CNN-BASED STOCK PRICE FORECASTING BY STOCK CHART IMAGES. (https://ipe.ro/new/rjef/rjef3_2023/rjef3_2023p120-128.pdf)
+- Kyle Johnson. Forecasting Stock Movements with Image Classification (https://kylejohnson363.github.io/forecasting_stock_movements_with_image_classification)
