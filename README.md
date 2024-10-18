@@ -21,7 +21,7 @@ A second model applied multi-class CNNs to predict not only the direction of pri
 While this may sound abstract, it offers tremendous value to options traders who rely on precise predictions about future price ranges to structure complex, high-reward trades. The negative Bartlett coefficient from this model confirms that the standard deviation of prediction errors was lower than that of market returns, and the p-value demonstrated statistical significance—highlighting the model’s practical utility.
 
 Key Takeaways
-Binary Classification Model:https://github.com/jesseleone/convolutional-neural-network-stock-charts/blob/main/Binary%20Results.JPG
+Binary Classification Model: https://github.com/jesseleone/convolutional-neural-network-stock-charts/blob/main/Binary%20Results.JPG
 
 Successfully outperformed the Dow Jones Industrial Average (56% vs. 31%).
 Demonstrated consistent success across both rising and falling markets, suggesting it captures actionable patterns.
@@ -43,4 +43,4 @@ Hybrid Neural Networks: Developing a model that combines numerical and visual da
 
 References: 
 - Jeongseok Bangl, Doojin Ryu. CNN-BASED STOCK PRICE FORECASTING BY STOCK CHART IMAGES. (https://ipe.ro/new/rjef/rjef3_2023/rjef3_2023p120-128.pdf)
-- Kyle Johnson. Forecasting Stock Movements with Image Classification (https://kylejohnson363.github.io/forecasting_stock_movements_with_image_classification)
+- Kyle Johnson. Forecasting Stock Movements with Image Classification. (https://kylejohnson363.github.io/forecasting_stock_movements_with_image_classification)
