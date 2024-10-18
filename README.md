@@ -21,7 +21,7 @@ A second model applied multi-class CNNs to predict not only the direction of pri
 While this may sound abstract, it offers tremendous value to options traders who rely on precise predictions about future price ranges to structure complex, high-reward trades. The negative Bartlett coefficient from this model confirms that the standard deviation of prediction errors was lower than that of market returns, and the p-value demonstrated statistical significance—highlighting the model’s practical utility.
 
 Key Takeaways
-Binary Classification Model:
+Binary Classification Model:https://github.com/jesseleone/convolutional-neural-network-stock-charts/blob/main/Binary%20Results.JPG
 
 Successfully outperformed the Dow Jones Industrial Average (56% vs. 31%).
 Demonstrated consistent success across both rising and falling markets, suggesting it captures actionable patterns.
