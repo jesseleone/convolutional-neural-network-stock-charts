@@ -41,6 +41,6 @@ Expanded Stock Universe: Incorporating stocks no longer listed in the DJIA or th
 Expanded Timeframe: Increase lookback period or increasing period intervals (down to 1-minute).
 Hybrid Neural Networks: Developing a model that combines numerical and visual data to enhance predictive performance.
 
-References: 
-- Jeongseok Bangl, Doojin Ryu. CNN-BASED STOCK PRICE FORECASTING BY STOCK CHART IMAGES. (https://ipe.ro/new/rjef/rjef3_2023/rjef3_2023p120-128.pdf)
-- Kyle Johnson. Forecasting Stock Movements with Image Classification. (https://kylejohnson363.github.io/forecasting_stock_movements_with_image_classification)
+Acknowledgements: 
+- Jeongseok Bangl, Doojin Ryu. CNN-BASED STOCK PRICE FORECASTING BY STOCK CHART IMAGES.
+- Kyle Johnson. Forecasting Stock Movements with Image Classification.
